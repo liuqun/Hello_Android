@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">Hello Android - andder.org</string>
+    <string name="mesg_001">Message No.001: Welcome</string>
+
+</resources>
