@@ -1,7 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">你好安卓</string>
-    <string name="mesg_001">搞掂了!</string>
+    <string name="mesg_001">搞掂！</string>
+    <string name="play">播放</string>
+    <string name="stop">結束</string>
+    <string name="pause">暫停</string>
+    <string name="exit">退出</string>
+    <string name="close">關閉</string>
 
 </resources>

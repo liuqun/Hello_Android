@@ -2,5 +2,14 @@
 
     <string name="app_name">Hello Android</string>
     <string name="mesg_001">It works!</string>
+    <string name="musicService">Music service</string>
+    <string name="musicReceiver">Music Receiver</string>
+    <string name="bindMusicService">Bind Music service</string>
+    <string name="remoteMusicService">Remote Music service</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="exit">Exit</string>
+    <string name="close">Close</string>
 
 </resources>

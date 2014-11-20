@@ -2,20 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="bottom|right"
     android:orientation="vertical" >
 
-    <TextView
+    <Button
+        android:id="@+id/btn_play"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/mesg_001"
-        android:textSize="32sp" />
+        android:onClick="onClick"
+        android:text="@string/play" />
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/app_name"
-        android:src="@drawable/logo" />
+        android:onClick="onClick"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/pause" />
 
 </LinearLayout>
